@@ -5,5 +5,7 @@ flags: {}
 packages:
 - .
 extra-deps:
-- rollbar-hs-0.2.0.0
-resolver: lts-10.5
+- github: lumihq/rollbar-hs
+  commit: 77f2de21aaf3f4ba3d19e03196165dd23e49a64b
+resolver: nightly-2022-08-04
+compiler: ghc-9.2.2
